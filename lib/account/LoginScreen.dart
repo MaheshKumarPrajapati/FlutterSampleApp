@@ -1,5 +1,5 @@
 import 'package:first_app/account/RegisterScreen.dart';
-import 'package:first_app/home/MainScreen.dart';
+import 'package:first_app/home/NewsTabScreen.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 
@@ -102,7 +102,7 @@ class _State extends State<LoginScreen> {
                     if(_form_key.currentState.validate()){
                       Navigator.pushReplacement(context,
                           MaterialPageRoute(builder:
-                              (context) => MainScreen()));
+                              (context) => NewsTabScreen()));
                     }
                   },
                 )
