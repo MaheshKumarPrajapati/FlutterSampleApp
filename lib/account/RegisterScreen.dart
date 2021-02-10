@@ -124,9 +124,7 @@ class _State extends State<RegisterScreen> {
                     ),
                   ),
                 ),
-
-
-
+            
             Padding(
               padding: EdgeInsets.only(left: 15, top:25, right:15, bottom:0),
               child:RaisedButton(
